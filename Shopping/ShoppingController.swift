@@ -79,11 +79,11 @@ class ShoppingController: UITableViewController {
 extension ShoppingController {
     
     
-    override func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
-        
+//    override func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
+//        
 //        return section == 0 ? "Items" : "Purchased"
-        return "Items"
-    }
+//       
+//    }
     
     //return 2 sections
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -159,7 +159,7 @@ extension ShoppingController {
         }
         
         doneAction.backgroundColor = #colorLiteral(red: 0.1960784346, green: 0.3411764801, blue: 0.1019607857, alpha: 1)
-        doneAction.title = "done"
+        doneAction.title = "purchased"
         
         return UISwipeActionsConfiguration(actions: [doneAction])
     }
