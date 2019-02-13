@@ -35,6 +35,9 @@
                     <navigationItem key="navigationItem" title="Shopping List" id="QcX-pG-YKI">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="PAL-KV-DnU">
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="addItem:" destination="4ja-97-cU3" id="jiM-0q-tXa"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                 </tableViewController>

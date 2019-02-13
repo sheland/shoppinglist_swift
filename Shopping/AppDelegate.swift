@@ -24,6 +24,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //initialize Itemstore
+        
+        let itemStore = ItemStore()
+        
+//        let todoItems = [Item(name: "Apple"), Item(name: "Rice"), Item(name: "Cookies")]
+//        let doneItems = [Item(name: "Cake")]
+//
+//        itemStore.items = [todoItems, doneItems]
+        
+        //grab the itemController
+        //window = presents storyboard
+        //rootviewcontroller = naviagation controller
+        //nc has child view controller's property, array of view controllers
+        let shoppingController = window?.rootViewController?.children.first as? ShoppingController
+        
+        //set the itemStore accordingly
+        shoppingController?.itemStore = itemStore
+        
+        
         return true
     }
 

@@ -14,6 +14,8 @@
 		7D82714D22140D080071574D /* ShoppingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D82714C22140D080071574D /* ShoppingTests.swift */; };
 		7D82715822140D080071574D /* ShoppingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D82715722140D080071574D /* ShoppingUITests.swift */; };
 		7D82716622140D820071574D /* ShoppingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D82716522140D820071574D /* ShoppingController.swift */; };
+		7D82716822143EC10071574D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D82716722143EC10071574D /* Item.swift */; };
+		7D82716A2214404B0071574D /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8271692214404B0071574D /* ItemStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7D82715722140D080071574D /* ShoppingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingUITests.swift; sourceTree = "<group>"; };
 		7D82715922140D080071574D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D82716522140D820071574D /* ShoppingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingController.swift; sourceTree = "<group>"; };
+		7D82716722143EC10071574D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		7D8271692214404B0071574D /* ItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				7D82714022140D070071574D /* LaunchScreen.storyboard */,
 				7D82714322140D070071574D /* Info.plist */,
 				7D82716522140D820071574D /* ShoppingController.swift */,
+				7D82716722143EC10071574D /* Item.swift */,
+				7D8271692214404B0071574D /* ItemStore.swift */,
 			);
 			path = Shopping;
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D82713822140D060071574D /* AppDelegate.swift in Sources */,
+				7D82716822143EC10071574D /* Item.swift in Sources */,
+				7D82716A2214404B0071574D /* ItemStore.swift in Sources */,
 				7D82716622140D820071574D /* ShoppingController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
