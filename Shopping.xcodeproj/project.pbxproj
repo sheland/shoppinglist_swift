@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		7D82713822140D060071574D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D82713722140D060071574D /* AppDelegate.swift */; };
-		7D82713A22140D060071574D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D82713922140D060071574D /* ViewController.swift */; };
 		7D82713D22140D060071574D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D82713B22140D060071574D /* Main.storyboard */; };
 		7D82713F22140D070071574D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D82713E22140D070071574D /* Assets.xcassets */; };
 		7D82714222140D070071574D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D82714022140D070071574D /* LaunchScreen.storyboard */; };
 		7D82714D22140D080071574D /* ShoppingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D82714C22140D080071574D /* ShoppingTests.swift */; };
 		7D82715822140D080071574D /* ShoppingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D82715722140D080071574D /* ShoppingUITests.swift */; };
+		7D82716622140D820071574D /* ShoppingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D82716522140D820071574D /* ShoppingController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		7D82713422140D060071574D /* Shopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shopping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D82713722140D060071574D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7D82713922140D060071574D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7D82713C22140D060071574D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D82713E22140D070071574D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D82714122140D070071574D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		7D82715322140D080071574D /* ShoppingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D82715722140D080071574D /* ShoppingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingUITests.swift; sourceTree = "<group>"; };
 		7D82715922140D080071574D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D82716522140D820071574D /* ShoppingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				7D82713722140D060071574D /* AppDelegate.swift */,
-				7D82713922140D060071574D /* ViewController.swift */,
 				7D82713B22140D060071574D /* Main.storyboard */,
 				7D82713E22140D070071574D /* Assets.xcassets */,
 				7D82714022140D070071574D /* LaunchScreen.storyboard */,
 				7D82714322140D070071574D /* Info.plist */,
+				7D82716522140D820071574D /* ShoppingController.swift */,
 			);
 			path = Shopping;
 			sourceTree = "<group>";
@@ -256,8 +256,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D82713A22140D060071574D /* ViewController.swift in Sources */,
 				7D82713822140D060071574D /* AppDelegate.swift in Sources */,
+				7D82716622140D820071574D /* ShoppingController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
